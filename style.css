@@ -1,3 +1,39 @@
-body {
-background-color: salmon;
+nav {
+  list-style-type: none;
+  background-color:#333;
+  width: 100%;
+  left:0;
+  top: 0;
+  margin: 0;
+  overflow: hidden;
+    position: fixed;
 }
+li{
+  float: left;
+}
+
+li a{
+  display:block;
+  color: white;
+  text-decoration: none;
+ padding: 14px 50px;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+}
+
+body{
+  background-color: #B4CEB3;
+}
+
+h1{
+  color: #0B2545;
+  text-shadow: 1px 1px #F9DEC9;
+}
+p{
+  color: #172815;
+  background-color: #1A936F;
+
+}
+
